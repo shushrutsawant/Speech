@@ -1,0 +1,17 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+public <greet> = (Good morning | Hello) (  Friday ); 
+
+public <question> = ( Friday ) ( Wakeup | Are you there | Introduce yourself);
+
+public <command> = (Open )( player | itunes | google | web | WAKEUP | friday );
+
+public <control> = (Increase)(volume);
+
+public <sites> = (Open)( Gmail | Facebook | Youtube);
